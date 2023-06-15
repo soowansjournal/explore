@@ -11,7 +11,7 @@
 // "There is a function called this, use it"
 #include "helpers.h"
 
-int main(int argc, char *argv[])
+int main(int argc, char *argv[]
 {
     // ensure proper usage
     if (argc != 3)
