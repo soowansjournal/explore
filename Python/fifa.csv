@@ -1,0 +1,24 @@
+Times:
+
+Type following into terminal:
+time python fifa.py 2018m.csv
+
+10 simulations: 0m0.03s  
+100 simulations: 0m0.03s
+1000 simulations: 0m0.04s
+10000 simulations: 0m0.12s
+100000 simulations: 0m0.90s
+1000000 simulations: 0m8.72s
+
+Questions:
+
+Which predictions, if any, proved incorrect as you increased the number of simulations?: 
+
+With a small number of simulations of 10, france having no chance of winnning was incorrect.
+With 100 simulations France had an 8% chance of winning so was most correct.
+Increased from 1000 simulations onwards the chance of France winning lowered to 3.5%.
+
+Suppose you're charged a fee for each second of compute time your program uses.
+After how many simulations would you call the predictions "good enough"?: 
+
+If charged a fee for each SECOND of compute time the program uses, after 1000 simulations should be "good enough"
